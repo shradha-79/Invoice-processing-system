@@ -1,5 +1,3 @@
-//when we want our backend to do some action we make controller
-
 package com.invoiceprocessing.server;
 
 import org.springframework.boot.SpringApplication;

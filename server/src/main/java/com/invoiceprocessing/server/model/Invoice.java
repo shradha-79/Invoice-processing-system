@@ -7,7 +7,6 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Invoice {
-//    to define id as primary and generate it automatically
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
@@ -15,9 +14,10 @@ public class Invoice {
     private String product;
     private int amount;
     private String date;
-    private  String action;
+    private String action;
 
-    public Invoice(){}
+    public Invoice() {}
+
     public Invoice(long id, String vendor, String product, int amount, String date, String action) {
         this.id = id;
         this.vendor = vendor;

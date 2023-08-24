@@ -1,4 +1,3 @@
-//DAO - data access object
 package com.invoiceprocessing.server.dao;
 
 import com.invoiceprocessing.server.model.Invoice;
